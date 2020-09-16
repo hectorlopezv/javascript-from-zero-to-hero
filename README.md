@@ -1,1 +1,1 @@
-# javascript-from-zero-to-hero
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=hectorlopezv)](https://github.com/anuraghazra/github-readme-stats)
