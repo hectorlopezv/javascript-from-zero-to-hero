@@ -1,0 +1,30 @@
+
+:root {
+    --pr: blue;
+    --red: red;
+}
+
+*, *::after, *::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: var(--pr);
+}
+
+ul
+{
+    text-decoration: none;
+    list-style: none;
+    color: var(--red);
+    font-size: 1.5rem;
+    padding: 1rem;
+}

@@ -1,0 +1,3 @@
+{
+    "presets": ["@babel/preset-env"]// decir que verisones de js estamos soportando EMA6 o typescritp
+}

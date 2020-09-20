@@ -1,0 +1,30 @@
+{
+  "name": "WEBPACK",
+  "version": "1.0.0",
+  "description": "archivo para aprender webpack",
+  "main": "index.js",
+  "scripts": {
+    "ejecutar": "webpack --mode development",
+    "watch": "webpack --w --mode development",
+    "dev": "webpack-dev-server --mode development --open --config webpack.config.js"
+  },
+  "author": "Hector Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/register": "^7.11.5",
+    "css-loader": "^4.3.0",
+    "html-webpack-plugin": "^4.4.1",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.1.0",
+    "node-sass": "^4.14.1"
+  }
+}
